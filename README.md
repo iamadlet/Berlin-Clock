@@ -1,5 +1,8 @@
 # 🕰 Berlin Clock — SwiftUI
 
+![image](https://github.com/user-attachments/assets/94b53221-8b5a-40c3-99cf-def21a71ccac)
+
+
 A visual and dynamic recreation of the famous **Berlin Clock (Mengenlehreuhr)**, built with SwiftUI.
 
 This unique clock tells the time using rows of colored lights — each representing seconds, hours, or minutes in a binary-inspired design. This project replicates that logic and layout while allowing users to set and visualize any custom time.
@@ -38,3 +41,9 @@ This unique clock tells the time using rows of colored lights — each represent
 1. Set any time using the built-in time picker
 2. The clock starts ticking from that moment
 3. Watch the lamps animate and update in real-time
+
+
+---
+
+## 📷 Preview
+
