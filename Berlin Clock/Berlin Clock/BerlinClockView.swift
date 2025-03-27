@@ -1,20 +1,22 @@
-//
-//  BerlinClockView.swift
-//  Berlin Clock
-//
-//  Created by Адлет Жумагалиев on 26.03.2025.
-//
-
 import SwiftUI
 
 struct BerlinClockView: View {
+    
     @ObservedObject var viewModel = BerlinClockViewModel()
+    
     var body: some View {
         VStack {
+            
             Text("Time is \(viewModel.currentTime.formatted(date: .omitted, time: .standard))")
-                .font(.system(size: 40, weight: .medium, design: .monospaced))
+                .font(.system(size: 17, weight: .semibold))
                     .padding(.top)
-            ClockDisplay(clockState: viewModel.clockState)
+            ZStack {
+                Color.white
+                ClockDisplay(clockState: viewModel.clockState)
+                
+            }
+            .frame(width: 358, height: 312)
+            .cornerRadius(12)
             
             HStack {
                 DatePicker("Insert Time",
@@ -26,8 +28,13 @@ struct BerlinClockView: View {
                 
             }
             .frame(width: 358, height: 54)
+            .background(.white)
+            .cornerRadius(12)
+            
+            Spacer()
         }
-        .background()
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color(UIColor.systemGray6))
     }
 }
 

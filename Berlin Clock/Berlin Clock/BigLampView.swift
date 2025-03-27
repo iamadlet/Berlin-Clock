@@ -15,7 +15,7 @@ struct BigLampView: View {
         Rectangle()
             .frame(width: 74, height: 32)
             .cornerRadius(4)
-            .foregroundColor(isOn ? .redOn : .redOff)
+            .foregroundColor(isOn ? colorOn : colorOff)
     }
 }
 
