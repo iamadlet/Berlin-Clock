@@ -1,10 +1,3 @@
-//
-//  SmallLampView.swift
-//  Berlin Clock
-//
-//  Created by Адлет Жумагалиев on 26.03.2025.
-//
-
 import SwiftUI
 
 struct SmallLampView: View {
