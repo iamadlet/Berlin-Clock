@@ -47,3 +47,6 @@ This unique clock tells the time using rows of colored lights — each represent
 
 ## 📷 Preview
 
+<p align="center">
+  <img src="BerlinClockScreenShot.png" width="300" alt="Berlin Clock Preview">
+</p>
