@@ -14,7 +14,7 @@ struct BerlinClockView: View {
             Text("Time is \(viewModel.currentTime.formatted(date: .omitted, time: .standard))")
                 .font(.system(size: 40, weight: .medium, design: .monospaced))
                     .padding(.top)
-//            ClockDisplay()
+            ClockDisplay(clockState: viewModel.clockState)
             
             HStack {
                 DatePicker("Insert Time",

@@ -16,6 +16,7 @@
 		A07B876B2D94567300F0532C /* SecondsLampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07B876A2D94567300F0532C /* SecondsLampView.swift */; };
 		A07B876D2D94570500F0532C /* Exntension+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07B876C2D94570400F0532C /* Exntension+Color.swift */; };
 		A07B876F2D9457E500F0532C /* BigLampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07B876E2D9457E500F0532C /* BigLampView.swift */; };
+		A07B87712D945A6E00F0532C /* SmallLampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07B87702D945A6E00F0532C /* SmallLampView.swift */; };
 		A08654572D944ECC0093A5B7 /* BerlinClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08654562D944ECC0093A5B7 /* BerlinClockView.swift */; };
 		A08654592D944F330093A5B7 /* ClockDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08654582D944F330093A5B7 /* ClockDisplay.swift */; };
 /* End PBXBuildFile section */
@@ -31,6 +32,7 @@
 		A07B876A2D94567300F0532C /* SecondsLampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondsLampView.swift; sourceTree = "<group>"; };
 		A07B876C2D94570400F0532C /* Exntension+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Exntension+Color.swift"; sourceTree = "<group>"; };
 		A07B876E2D9457E500F0532C /* BigLampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigLampView.swift; sourceTree = "<group>"; };
+		A07B87702D945A6E00F0532C /* SmallLampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallLampView.swift; sourceTree = "<group>"; };
 		A08654562D944ECC0093A5B7 /* BerlinClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerlinClockView.swift; sourceTree = "<group>"; };
 		A08654582D944F330093A5B7 /* ClockDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockDisplay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,6 +78,7 @@
 				A07B876A2D94567300F0532C /* SecondsLampView.swift */,
 				A07B876C2D94570400F0532C /* Exntension+Color.swift */,
 				A07B876E2D9457E500F0532C /* BigLampView.swift */,
+				A07B87702D945A6E00F0532C /* SmallLampView.swift */,
 			);
 			path = "Berlin Clock";
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			files = (
 				A02387A72D943A6200F860B9 /* ContentView.swift in Sources */,
 				A07B876B2D94567300F0532C /* SecondsLampView.swift in Sources */,
+				A07B87712D945A6E00F0532C /* SmallLampView.swift in Sources */,
 				A02387B52D9440BE00F860B9 /* BerlinClockViewModel.swift in Sources */,
 				A02387A52D943A6200F860B9 /* Berlin_ClockApp.swift in Sources */,
 				A08654592D944F330093A5B7 /* ClockDisplay.swift in Sources */,
